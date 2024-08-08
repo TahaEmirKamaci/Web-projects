@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Circuit Analysis</title>
+</head>
+<body>
+
+    <div class = "container">
+        
+        <div id="header">
+            <div id="nav-bar">
+                <div id="links">
+                    <h1><a href="#">Simple Site</a></h1>
+                    <a href="#">English</a>
+                    <a href="#">Türkçe</a>
+                </div>
+                <div id="log-in">
+                    <form id=login name=login action="ilkel_site.php?islem=login" method="post">
+                        <div class="subForm">
+                            <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" name="username"/>  
+                            <input type="checkbox"/>
+                            <label>Keep Me Signed In</label>
+                            </div>
+                            <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password"/>  
+                            <a href="#">Forgot Password</a>
+                            </div>
+                            <div class="form-group">
+                            <input type="submit" value="Log In" id="btn2" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>   
+
+        <div id="main-content">
+            <div id="content">
+                <div id="section">
+                    <p style="padding-top: 25px;">
+                        Hello..... Welcome to Simple Site Platform.....
+                    </p>
+                    <p>This Platform serves to perform the Analysisof direct current circuts 
+                        with the solution steps
+                    </p>
+    
+                    <p>THe details about how to use the software will be explained şn the page
+                        directed after the login is successful
+                    </p>
+                    <p>
+                        The registration process is required to protect system resources and to
+                        obtain user feedback about the software.
+                    </p>
+    
+                    <p>
+                        Your feedback is very important for us
+                    </p>
+                    <p>
+                        After using the software, you can send your feedback to us from the next page
+                    </p>
+                </div>
+
+                <div id="aside">
+                    <form action="">
+                        <div class="form">
+                            <h3>Sign Up</h3>
+                            <h4>It's Quck And Easy</h4> 
+                            <div class="form-group2">
+                                 <input class="forminp width100" type="email"  placeholder="E-Mail Adress">
+                            </div>
+                            <div class="form-group2">
+                                <select class="forminp width100" id="job" name="job">
+                                 <option>Job</option>
+                                 <option value="software">Software Engineer</option>
+                                 <option value="civil">Blockchain Engineer</option>
+                                </select>
+                            </div>
+                            <div class="form-group2">
+                                 <input class="forminp width100" type="password"  placeholder="Password">
+                            </div>
+                            <div class="form-group2">
+                               <input class="forminp width100" type="password"  placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group2">
+                               <input type="submit" value="Sign Up" id="btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
